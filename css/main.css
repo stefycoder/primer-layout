@@ -1,0 +1,119 @@
+/* Ingresa tu css aqui */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:content-box;
+}
+body{
+	margin: 10px;
+}
+.container{
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+	padding: 30px;
+
+}
+.grupo{
+	margin: 0px; 
+	width: 700px;
+	margin-bottom: 20px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+nav{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 1.5em;
+}
+h3{
+	font-family: Cursive;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.raya{
+	width: 100px;
+	border:2px solid black;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+.linea{
+	width: 100px;
+	border:2px solid black;
+}
+.p1{
+	display: inline-block;
+}
+.caja{
+	position: static;
+}
+.caja .p1{
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.texto{
+	text-align: center;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-right: 100px
+}
+.caja .p1 p{
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	color: white;
+}
+.name{
+	border-radius: 100%;
+	margin-left: 235px;
+
+}
+h1{
+	font-family: Arial;
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
+.leng a{
+	font-size: 20px;
+	background-color: #808080;
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin: 10px;
+}
+.leng a:first-child{
+	width: 400px;
+}
+.leng a:nth-child(2){
+	width: 300px;
+}
+.leng a:last-child{
+	width: 200px;
+}
+.texto2{
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-right: 100px
+}
+.deta{
+	border: 1px solid black;
+}
+.p2{
+	width: 700px;
+}
+.p2 img{	
+	width: 200px;
+	margin: 10px;
+}
